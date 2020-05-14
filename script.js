@@ -4,7 +4,7 @@ console.log(containerTask);
 
 function addTask() {
   console.log(mainInput.value);
-  containerTask.innerHTML += mainInput.value
+  containerTask.innerHTML += `${mainInput.value}<br>`
   // containerTask.innerHTML = mainInput.value
 }
 
