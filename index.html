@@ -9,20 +9,30 @@
 </head>
 
 <body>
-  <div>
+  <div class="mainDiv">
     <h1 class="head">TodoList</h1>
     <div class="main-task">
       <h2>Что нужно сделать</h2>
       <div class="conteinerTask">
-        <input type="checkbox" name="" id=""> Купить картохи <br>
-        <input type="checkbox" name="" id=""> Купить Молока<br>
-        <input type="checkbox" name="" id=""> Покормить рыбок<br>
+        <div class="task">
+          <input type="checkbox" name="" id=""> Купить картохи <br>
+        </div>
+        <div>
+          <input type="checkbox" name="" id=""> Купить Молока<br>
+        </div>
+        <div>
+          <input type="checkbox" name="" id=""> Покормить рыбок<br>
+        </div>
       </div>
-      Здесь будут задачи которы надо выполнить
     </div>
+
+    <!-- Кнопки и инпуты -->
+
     <div>
-      <input type="text" class="mainInput" id="mainInput" value="Купить">
-      <button class="btnAddTask" id="btnAddTask">Добавить задачу</button>
+      <input type="text" class="mainInput" id="mainInput" value="Купить"> <br>
+      <button class="btn btnAddTask">Добавить задачу</button>
+      <button class="btn btnDeletedTask">Удалить выполненые задачи</button>
+
     </div>
   </div>
 

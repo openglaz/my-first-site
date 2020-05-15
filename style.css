@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: black;
   color: white;
@@ -8,9 +13,28 @@ body {
   text-align: center;
 }
 
-.cat {
-  max-width: 350px;
-  max-height: 350%;
-  width: 100%;
-  height: 100%;
+.mainDiv {
+  /* display: ; */
+  /* height: 60%; */
+  /* width: 60%; */
+  background: darkorchid;
+  text-align: center;
+}
+
+.mainInput {
+  width: 50%;
+  height: auto;
+}
+
+.btn {
+  width: 25%;
+  /* height: 25px; */
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.conteinerTask {
+  margin-bottom: 10px;
 }
