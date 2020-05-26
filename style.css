@@ -11,6 +11,7 @@ body {
 
 .head {
   text-align: center;
+  font-size: 50px;
 }
 
 .mainDiv {
@@ -34,4 +35,8 @@ h2 {
 
 .conteinerTask {
   margin-bottom: 10px;
+}
+
+.btnDelete {
+  border-radius: 100%;
 }
