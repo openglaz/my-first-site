@@ -55,7 +55,7 @@ function addTask() {
     } else {
       tempOut += '<input type="checkbox">'
     }
-    tempOut += `<div>${arrTask[key].todo}</div><br>`
+    tempOut += `<span>${arrTask[key].todo}</span><br>`
   }
   document.getElementById('out').innerHTML = tempOut;
 }
