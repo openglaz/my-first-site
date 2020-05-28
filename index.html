@@ -9,39 +9,35 @@
 </head>
 
 <body>
-  <div class="mainDiv">
+  <div class="mainDiv-todoList">
     <h1 class="head">TodoList</h1>
     <div class="main-task">
       <h2>Что нужно сделать</h2>
 
+      <!-- Поле ввода и кнопки добавления и удаления -->
+
+      <div>
+        <input type="text" class="mainInput" id="in" value="Купить">
+        <button class="btn btnAddTask" id="add">Добавить задачу</button>
+        <!-- <button class="btn btnDeletedTask">Удалить выполненые задачи</button> -->
+      </div>
+
       <!-- Далее идут задичи которые нужно выполнить -->
 
-      <div class="conteinerTask">
+      <div class="conteinerTask" id="out">
 
-        <div class="task">
-          <input type="checkbox" name="" id=""> Купить картохи <button class="btnDelete"> &#10008</button> <br>
-        </div>
 
-        <div class="task">
-          <input type="checkbox" name="" id=""> Купить Молока<button class="btnDelete"> &#10008</button><br>
-        </div>
-
-        <div>
-          <input type="checkbox" name="" id=""> Покормить рыбок<button class="btnDelete"> &#10008</button><br>
-        </div>
 
       </div>
     </div>
 
     <!-- Кнопки и инпуты -->
 
-    <div>
-      <input type="text" class="mainInput" id="mainInput" value="Купить"> <br>
-      <button class="btn btnAddTask">Добавить задачу</button>
-      <button class="btn btnDeletedTask">Удалить выполненые задачи</button>
-
-    </div>
   </div>
+
+  <!-- Конец блока с todolist'ом !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+
 
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
