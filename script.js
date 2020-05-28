@@ -31,31 +31,31 @@
 
 /////////////////////////
 //! Решение от Александра Лущенко
-// let arrTask = [];
+let arrTask = [];
 
-// document.getElementById('add').onclick = () => {
+document.getElementById('add').onclick = () => {
 
-//   let valInput = document.getElementById('in').value;
-//   let temp = {};
+  let valInput = document.getElementById('in').value;
+  let temp = {};
 
-//   temp.todo = valInput;
-//   temp.cheked = false;
-//   let i = arrTask.length;
-//   arrTask[i] = temp;
-//   addTask()
-//   document.getElementById('in').value = ''
-// }
+  temp.todo = valInput;
+  temp.cheked = false;
+  let i = arrTask.length;
+  arrTask[i] = temp;
+  addTask()
+  document.getElementById('in').value = ''
+}
 
-// function addTask() {
+function addTask() {
 
-//   let tempOut = '';
-//   for (let key in arrTask) {
-//     if (arrTask[key].cheked == true) {
-//       tempOut += '<input type="checkbox" cheked>'
-//     } else {
-//       tempOut += '<input type="checkbox">'
-//     }
-//     tempOut += `<div>${arrTask[key].todo}</div><br>`
-//   }
-//   document.getElementById('out').innerHTML = tempOut;
-// }
+  let tempOut = '';
+  for (let key in arrTask) {
+    if (arrTask[key].cheked == true) {
+      tempOut += '<input type="checkbox" cheked>'
+    } else {
+      tempOut += '<input type="checkbox">'
+    }
+    tempOut += `<div>${arrTask[key].todo}</div><br>`
+  }
+  document.getElementById('out').innerHTML = tempOut;
+}
